@@ -267,12 +267,12 @@ margin-top: 30px;
 /* fourth__conatinder  */
 .fourth__conatinder {
     display: flex;
-width: 1045px;
-height: 565px;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-gap: 80px;
+    height: 565px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    width: 1045px;
 }
 .fourth__conatinder h4 {
     color: #83888F;
@@ -284,12 +284,48 @@ gap: 80px;
     width: 255px;
     
 }
+
+.lines{
+    position: relative;
+}
+
+.linem{
+    display: flex;
+    gap: 349px;
+    z-index: 1;
+    padding-bottom: 15px;
+}
+
+.line1{
+    width: 31px;
+    height: 31px;
+    z-index: 1;
+    border-radius: 50%;
+    border:2px solid #0E8784;
+}
+
+.lined{
+    position: absolute;
+    top: 15px;
+}
+
+.line2{
+    width: 350px;
+    height: 2px;
+    background-color: #FDD6BA;
+    margin-left: 29px;
+    
+}
+
+.lin{
+    margin-left: 109%;
+}
 .card__info {
     display: flex;
     align-items: center;
     width: 1045px;
-height: 453px;
-gap: 95px;
+    gap: 95px;
+    height: 453px;
 }
 .first__info__card {
     width: 285px;
@@ -392,9 +428,71 @@ height: 24px;
 flex-shrink: 0;
 }
 
-@media screen and (max-with: 375px;
-height: 5424px;) { 
-    
+@media screen and (max-width:768px) { 
+    /* header__container */
+    .container {
+    width: 100%;
+    max-width: 100v;
+    }
+   .header__container img {
+    width: 236px;
+height: 26px;
+flex-shrink: 0;
+   } 
+   .header__container a {
+    color: #83888F;
+font-family: Barlow;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 15px; 
+letter-spacing: 0.923px;
+text-transform: uppercase;
+   }
+   .header__container {
+    width: 689px;
+height: 26px;
+flex-shrink: 0;
 }
-    
+/* .first__container  */
+.first__container {
+    width: 689px;
+    height: 500px;
+    flex-shrink: 0;
+    background-image:  url(../images/Bitmap)
+}
+.first__container__info {
+    width: 398px;
+height: 292px;
+flex-shrink: 0;
+}
+.first__info__card h1 {
+    color: #FEFCF7;
+    font-family: Fraunces 9pt;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px; 
+}
+.first__container__info p {
+    color: #FEFCF7;
+font-family: Barlow;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 166.667% */
+width: 372px;
+}
+.first__container__info button {
+    width: 217px;
+height: 56px;
+flex-shrink: 0;
+border-radius:5px;
+}
+/* second__container */
+.second__container {
+    width: 689px;
+height: 500px;
+flex-shrink: 0;
+}
 }
