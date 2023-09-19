@@ -451,5 +451,23 @@ margin-left: 10px;
 }
 
 @media screen and (max-width:768px) {
+    .container {
+        padding-left: 39px;
+        padding-right: 39px;
+    }
+    .header__container img {
+        width: 236px;
+        height: 26px;
+        flex-shrink: 0;
+    }
+    .header__container  {
+        width: 689px;
+        height: 26px;
+        flex-shrink: 0;
+    }
+    
+}
+
+@media screen and (max-width:327px) {
 
 }
