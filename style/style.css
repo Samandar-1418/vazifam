@@ -447,7 +447,7 @@ a:hover {
 margin-left: 10px;
 }
 
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
     .container {
         padding-left: 39px;
         padding-right: 39px;
@@ -461,6 +461,7 @@ margin-left: 10px;
         width: 689px;
         height: 26px;
         flex-shrink: 0;
+        margin-top: 50px;
     }
     .link {
         display: flex;
@@ -555,7 +556,7 @@ width: 540px;
 margin-top: 24px;
 margin-left: 70px;
     }
-    
+
 
      
 
@@ -563,4 +564,4 @@ margin-left: 70px;
 
 @media screen and (max-width:327px) {
 
-}
+} */
