@@ -481,7 +481,7 @@ font-size: 12px;
 font-style: normal;
 font-weight: 700;
 line-height: 15px; /* 125% */
-letter-spacing: 0.923px;
+/* letter-spacing: 0.923px;
 text-transform: uppercase;
 
     }
@@ -564,4 +564,4 @@ margin-left: 70px;
 
 @media screen and (max-width:327px) {
 
-} */
+} */ */
